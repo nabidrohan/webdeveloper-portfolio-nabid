@@ -95,6 +95,9 @@ line-height: 30px;
 width: 656px;
 height: 60px;
 }
+.text-center{
+    text-align: center;
+}
 .about-tittle{
     color: var(--Dark-01, #181818);
 text-align: center;
@@ -133,3 +136,43 @@ main{
         display: flex;
         justify-content:space-around
     }
+.section-description{
+    color: var(--Dark-03, #757575);
+text-align: center;
+font-family: "Open Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+width: 909px;
+height: 90px;
+justify-content: space-around;
+margin: 5px 145px;
+}
+.skills{
+    display: flex;
+    gap: 24px;
+
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+
+}
+.skill-description{
+    color: var(--Dark-03, #757575);
+font-family: "Open Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+.skill-tittle{
+    color: var(--Dark-01, #181818);
+font-family: "Open Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
