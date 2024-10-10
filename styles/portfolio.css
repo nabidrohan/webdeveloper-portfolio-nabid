@@ -176,3 +176,49 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-description,.experience-sub-tittle{
+    color: #757575;
+}
+.experience-sub-tittle{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom:20px;
+}
+.resume hr{
+    margin: 30px;
+}
+.experience-title{
+    color: var(--Dark-02, #474747);
+font-family: "Open Sans";
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.resume-tittle{
+    color: var(--Dark-01, #181818);
+text-align: center;
+font-family: "Open Sans";
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.resume{
+    margin: 100px;
+}
+.resume-column-tittle{
+    color: var(--Dark-02, #474747);
+font-family: "Open Sans";
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.rsm-btn{
+    margin-top: 50px;
+}
